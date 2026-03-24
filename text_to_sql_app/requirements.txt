@@ -1,0 +1,10 @@
+streamlit
+pandas
+openpyxl
+sqlalchemy
+langchain
+langgraph
+langchain-community
+langchain-openai
+langchain-anthropic
+python-dotenv

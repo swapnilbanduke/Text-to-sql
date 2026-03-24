@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Streamlit and runtime artifacts
+*.log
+text_to_sql_app/streamlit*.log
+
+# Local databases and uploaded data
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and cache artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
