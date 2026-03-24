@@ -12,7 +12,6 @@ Professional Streamlit app for querying uploaded CSV and Excel files with either
 ## Run locally
 
 ```bash
-cd text_to_sql_app
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -28,6 +27,7 @@ Set either `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` in the environment, or enter 
 - `ingestion.py`: CSV and Excel ingestion
 - `prompts.py`: prompt templates and result normalization
 - `.env.example`: provider-specific environment variables
+- `data/`: local SQLite storage directory
 
 ## Notes
 
