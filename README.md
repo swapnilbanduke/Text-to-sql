@@ -9,6 +9,12 @@ Professional Streamlit app for querying uploaded CSV and Excel files with either
 - Upgraded studio-style UI with dedicated Data, Query, and History tabs
 - Read-only SQL generation with result normalization for safer rendering
 
+## Workflow overview
+
+The diagram below shows the end-to-end Text-to-SQL flow, from user question to SQL generation, execution, and final answer synthesis.
+
+![Text-to-SQL workflow](./text_to_sql_langgraph_pipeline.png)
+
 ## Run locally
 
 ```bash
